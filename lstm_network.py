@@ -1,8 +1,8 @@
 import torch
 from torch import nn
-from pytorch.advance.gan_network.gan_stock.preprocessing import train_loader, test_loader, scaler, scaler_labels
-from pytorch.advance.gan_network.gan_stock.configs import *
-# from pytorch.advance.gan_network.gan_stock.preprocessing import *
+from preprocessing import train_loader, test_loader, scaler, scaler_labels
+from configs import *
+# from preprocessing import *
 import numpy as np
 import random
 
