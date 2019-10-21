@@ -12,7 +12,7 @@ from math import sqrt
 from configs import *
 
 df = pd.read_csv(
-    '../raw/FPT.csv')
+    './raw/FPT.csv')
 
 # setting index as date
 df['Date'] = pd.to_datetime(df.Date, format='%d/%m/%Y')
