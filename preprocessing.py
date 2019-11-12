@@ -124,7 +124,7 @@ y = y.view(len(y), num_future_days)
 print(scaler_labels.inverse_transform(y))
 
 # SPLIT = int(0.95 * len(X))
-SPLIT = len(X) - 7
+SPLIT = len(X) * 0.8
 X_train = X[0: SPLIT, :]
 y_train = y[0: SPLIT, ]
 X_valid = X[SPLIT:, :]
